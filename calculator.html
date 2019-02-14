@@ -8,9 +8,15 @@
 				var num = document.getElementById("n1");
 				num.value =  Math.pow(num.value, 3);
 			}
+
 			function _sin() {
 				var num = document.getElementById("n1");
 				num.value =  Math.sin(num.value);
+			}
+
+			function pow4() {
+				var num = document.getElementById("n1");
+				num.value =  Math.pow(num.value, 4);
 			}
 		</script>
 	</head>
@@ -21,5 +27,6 @@
 		</p>
 		<button onclick="cube();">x<sup>3</sup></button>
 		<button onclick="_sin();">sin(x)</button>
+		<button onclick="pow4();">x<sup>4</sup></button>
 	</body>
 </html>
