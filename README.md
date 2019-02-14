@@ -1,0 +1,1 @@
+Ejercicio de la primera entrega del curso de Git.
